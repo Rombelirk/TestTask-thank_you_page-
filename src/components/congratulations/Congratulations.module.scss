@@ -1,0 +1,14 @@
+.congratulations {
+    display: flex;
+    align-items: center;
+
+    .checkBoxContainer {
+        display: flex;
+        color: green;
+        margin-right: 14px;
+    }
+
+    .labelContainer {
+        font-size: 26px;
+    }
+}
