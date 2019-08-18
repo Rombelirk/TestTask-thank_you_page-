@@ -36,7 +36,7 @@ const Info = ({ data }) => {
                 <InfoItem title={"Arrival Date:"}>
                     {getFormattedDate(data.data.attributes.arrival_time)}
                 </InfoItem>
-                <InfoItem title={"Department Station:"}>
+                <InfoItem title={"Departure Station:"}>
                     {data.included[0].attributes.name}
                 </InfoItem>
                 <InfoItem title={"Arrival Station:"}>
