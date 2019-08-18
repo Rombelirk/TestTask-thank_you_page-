@@ -11,11 +11,9 @@
 
 .featuresContainer {
     display: flex;
-    // flex-direction: column;
     flex-flow: row;
     margin: 10px;
     flex-wrap: wrap;
-    // justify-content: space-around;
     color: lightgray !important;
 
     .chipContainer {
@@ -26,13 +24,6 @@
         min-width: 180px;
         height: 40px;
         padding: 0 10px;
-
-        .icon {
-        }
-
-        .name {
-            margin-left: 10px;
-        }
     }
 }
 

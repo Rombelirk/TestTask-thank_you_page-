@@ -5,7 +5,6 @@ import {
     chipContainer,
     title
 } from "./Features.module.scss";
-import Paper from "@material-ui/core/Paper";
 import Chip from "@material-ui/core/Chip";
 import ToysIcon from "@material-ui/icons/Toys";
 import WcIcon from "@material-ui/icons/Wc";
@@ -15,7 +14,6 @@ import ReplayIcon from "@material-ui/icons/Replay";
 import WifiSharpIcon from "@material-ui/icons/WifiSharp";
 import AirlineSeatReclineExtraIcon from "@material-ui/icons/AirlineSeatReclineExtra";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
-import { green } from "@material-ui/core/colors";
 
 const useStyles = makeStyles(theme =>
     createStyles({
@@ -32,8 +30,6 @@ const useStyles = makeStyles(theme =>
             fontFamily: "Prometo",
             fontSize: "14px",
             width: "180px",
-            // display: "flex",
-            // justifyContent: "space-between"
         }
     })
 );
@@ -52,7 +48,6 @@ const Features = ({ features }) => {
     const classes = useStyles();
 
     return (
-      
             <div className={container}>
                 <div className={title}>Features included:</div>
                 <div className={featuresContainer}>

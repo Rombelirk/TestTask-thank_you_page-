@@ -10,7 +10,7 @@ const Congratulations = ({ data }) => {
         <div className={styles.congratulations}>
             <div className={styles.checkBoxContainer}>{element}</div>
             <div className={styles.labelContainer}>
-                <b>Purchase Complete!</b> <br /> Your tickets have been sent to{" "}
+                <b>Purchase Completed!</b> <br /> Your tickets have been sent to{" "}
                 <b>{data.data.attributes.email}</b>
             </div>
         </div>

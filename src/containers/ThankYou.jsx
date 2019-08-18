@@ -17,11 +17,8 @@ const ThankYou = () => {
         <Container className={styles.container} maxWidth={"md"}>
             <Paper className={styles.paper}>
                 <Congratulations data={data} />
-                {/* <div className={styles.row}> */}
                 <Info data={data} />
                 <Features features={getFeatures()} />
-
-                {/* </div> */}
             </Paper>
         </Container>
     );
