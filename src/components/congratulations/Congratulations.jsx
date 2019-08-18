@@ -5,12 +5,13 @@ import styles from "./Congratulations.module.scss";
 
 const element = <FontAwesomeIcon size={"4x"} icon={faCheckCircle} />;
 
-const Congratulations = props => {
+const Congratulations = ({ data }) => {
     return (
         <div className={styles.congratulations}>
             <div className={styles.checkBoxContainer}>{element}</div>
             <div className={styles.labelContainer}>
-                Congratulations, you have successfully purchased the ticket
+                <b>Purchase Complete!</b> <br /> Your tickets have been sent to{" "}
+                <b>{data.data.attributes.email}</b>
             </div>
         </div>
     );

@@ -2,9 +2,13 @@
   font-family: 'Prometo';
 }
 
-body > * {
+body {
+  margin: 0 !important;
+  background-color: lightgrey;
   font-family: 'Prometo';
 }
+
+
 
 .App-logo {
     animation: App-logo-spin infinite 20s linear;

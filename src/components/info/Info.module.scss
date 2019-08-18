@@ -1,0 +1,8 @@
+.info {
+    display: flex;
+    flex-grow: 1;
+
+    @media screen and (max-width: 800px) {
+        flex-direction: column;
+    }
+}

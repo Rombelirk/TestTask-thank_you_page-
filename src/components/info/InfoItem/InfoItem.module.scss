@@ -1,0 +1,12 @@
+.infoItem {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    margin-top: 8px;
+
+    .titleContainer {
+        font-weight: bold;
+        font-size: 15px;
+    }
+}
+

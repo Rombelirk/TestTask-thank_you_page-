@@ -1,11 +1,39 @@
-.featureContainer {
-    display: flex;
-    align-items: center;
 
-    .icon {
-    }
+.container {
+    padding: 20px 0;
 
-    .name {
-        margin-left: 10px;
+    .title {
+        padding: 0 20px;
+        font-weight: bold;
+        font-size: 22px;
     }
 }
+
+.featuresContainer {
+    display: flex;
+    // flex-direction: column;
+    flex-flow: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    // justify-content: space-around;
+    color: lightgray !important;
+
+    .chipContainer {
+        cursor: info;
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        min-width: 180px;
+        height: 40px;
+        padding: 0 10px;
+
+        .icon {
+        }
+
+        .name {
+            margin-left: 10px;
+        }
+    }
+}
+
+

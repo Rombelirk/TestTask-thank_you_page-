@@ -24,7 +24,9 @@ const data = {
             "payment_method": "demand_note",
             "payment_token": null,
             "payer_id": null,
+
             "total_price": 2000,
+            
             "pax": 1,
             "flight_number": null,
 
